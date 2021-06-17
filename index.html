@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project C80</title> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1>Guest list</h1>
+        <input type="text" placeholder="Enter guest name" id="Name_input"style="margin-right: 10px;">
+        <button onclick="submit()" id="Submit_button">Submit</button>
+        <span></span>
+        <hr>
+        <div id="display_names"></div>
+        <hr>
+        <h1>Guest list</h1>
+        <button onclick="show()" id="Show_button">Show</button>
+        <div id="display_list"></div>
+        <hr>
+        <button onclick="sort()" id="Sort_button">Sort</button>
+        <div id="sorted_list"></div>
+        <hr>
+        <input id="search_input" type="text" placeholder="Search guest name" style="margin-right: 10px;">
+        <button onclick="search()" id="Search_button">Search</button>
+        <div id="name_found"></div>
+        </center>
+    </body>
+</html>
